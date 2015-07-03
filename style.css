@@ -18,8 +18,6 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 and Blueprint http://www.blueprintcss.org/
 */
 
-
-
 @import '../sela/style.css';
 @font-face {
 	font-family: 'applegothic';
@@ -111,6 +109,19 @@ and Blueprint http://www.blueprintcss.org/
 	font-size: 6.1rem;
 	//font-weight: 300;
 }
+/*<--End of Header-->*/
+.hero .entry-title{
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 500;
+}
+.hero p{
+	text-align: center;
+}
+.hero img{
+	width: 600px;
+}
+
 
 @media screen and (min-width: 768px) {
 		/* Navigation */
@@ -150,6 +161,8 @@ and Blueprint http://www.blueprintcss.org/
 		max-width: 1380px;
 		padding: 0;
 	}
+
+
 
 	.front-widget-area,
 	.front-testimonials {
