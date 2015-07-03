@@ -124,6 +124,28 @@ and Blueprint http://www.blueprintcss.org/
 	width: 600px;
 }
 
+#secondary.widget-area{
+	padding: 0;
+}
+
+#bwg_standart_thumbnails_0{
+	width: 100%;
+}
+
+#text-2.widget {
+	background: #2574A9;
+}
+
+#text-3.widget {
+	background: #fff;
+	height: 300px;
+}
+
+#wpcf7-f28-o1 {
+	margin: 0 auto;
+	width: 90%;
+}
+
 
 @media screen and (min-width: 768px) {
 		/* Navigation */
@@ -163,8 +185,6 @@ and Blueprint http://www.blueprintcss.org/
 		max-width: 100%;
 		padding: 0;
 	}
-
-
 
 	.front-widget-area,
 	.front-testimonials {
