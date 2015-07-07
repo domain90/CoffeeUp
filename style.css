@@ -35,9 +35,12 @@ and Blueprint http://www.blueprintcss.org/
 	format('svg'); font-weight: normal; font-style: normal; 
 }
 
-.site {
-	max-width: 100%;
-}
+#page {
+		padding: 0;
+		width: 100%;
+	}
+
+
 
 .site-slogan p{
 	font-family: 'extrabold';
@@ -97,8 +100,7 @@ and Blueprint http://www.blueprintcss.org/
 }
 
 .site-logo {
-	width: auto;
-	margin: -25px;
+	width: 100%;
 }
 
 .site-logo {
@@ -123,7 +125,7 @@ and Blueprint http://www.blueprintcss.org/
 .hero img{
 	width: 600px;
 }
-
+/*End of Pricing*/
 #secondary.widget-area{
 	padding: 0;
 }
@@ -132,58 +134,111 @@ and Blueprint http://www.blueprintcss.org/
 	width: 100%;
 }
 
-#text-2.widget {
+#masonry-gallery-thumbnails_1448 .images-in-row_1448 .witdh_thumb .widget_margin_thumbs4811 .opactiy_thumbs .margin_thumbs .dynamic_css .gb_overlay img{
+	width: 600px;
+	height: 300px;
+}
+
+/*#text-2.widget {
 	background: #2574A9;
 }
 
 #text-3.widget {
 	background: #fff;
 	height: 300px;
-}
-
+}*/
+/*Form*/
 #wpcf7-f28-o1 {
 	margin: 0 auto;
 	width: 90%;
+	font-size: 1.5em;
 }
 
+#wpcf7-f28-o1 .wpcf7-form p {
+	display: block;
+	margin: 0px;
+	height: 100px;
+}
 
-@media screen and (min-width: 768px) {
+/* All Text Widgets*/
+.textwidget{
+	margin: 0 auto;
+}
+.textwidget img{
+	width: 33.2%;
+	height: 50%;
+	margin-bottom: 30px;
+}
+
+/* End of Gallery*/
+
+
+
+
+@media screen and (min-width: 480px) {
+	
+
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
 		/* Navigation */
+	
 	.main-navigation {
-		padding: 0.25em 1000px;
+		padding: 0.25em;
 		position: absolute;
+		margin-left: 65%;
 	}
 	.main-navigation ul {
-		display: block;
+		display: inline-block;
 		list-style: none;
 		text-align: center;
-		width: 380px;
 		list-style-type: none;
-		font-size: 5.5pt;
 	}
-	.main-navigation ul li {
+	/*.main-navigation ul li {
 		border: 0 none;
 		display: inline-block;
 		padding: 0.75em 2em 0.75em 0;
 		position: relative;
-	}
+	}*/
 	.main-navigation ul a {
 		padding: 0;
-		font-size: 20px;
+		font-size: 1.2em;
 	}
-	.nav-menu > li > a:after {
+	/*.nav-menu > li > a:after {
 		color: #ffa4ad;
 		//content: " \2022";
 		margin-left: 1em;
 	}
+	.site-logo {
+		margin: 0px;
+	}*/
 }
 
-@media screen and (min-width: 1180px) {
+@media only screen and (min-width: 1080px) {
 	/* Layout */
 	.site {
 		margin: 0 auto;
 		max-width: 100%;
 		padding: 0;
+	}
+
+	.main-navigation {
+		padding: 0.25em;
+		margin-left: 70%;
+	}
+
+	.main-navigation ul {
+		display: inline-block;
+		list-style: none;
+		text-align: center;
+	}
+
+	.main-navigation ul a {
+		padding: 0;
+		font-size: 1.2em;
 	}
 
 	.front-widget-area,
