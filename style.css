@@ -156,8 +156,27 @@ and Blueprint http://www.blueprintcss.org/
 
 #wpcf7-f28-o1 .wpcf7-form p {
 	display: block;
+	margin: 0 auto;
+	height: 150px;
+	font-size: 1.5em;
+	width: 50%;
+}
+
+/*#wpcf7-f28-o1 .wpcf7-form p:nth-child(2) {
+	display: block;
 	margin: 0px;
-	height: 100px;
+	float: left;
+}
+
+#wpcf7-f28-o1 .wpcf7-form p:nth-child(3) {
+	display: block;
+	padding-top: 20px;
+	float: right;
+	
+}*/
+
+#wpcf7-f28-o1 .wpcf7-form p:nth-child(4) {
+	
 }
 
 /* All Text Widgets*/
