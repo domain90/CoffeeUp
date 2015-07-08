@@ -19,28 +19,29 @@ and Blueprint http://www.blueprintcss.org/
 */
 
 @import '../sela/style.css';
+
 @font-face {
 	font-family: 'applegothic';
 	src: url('webfonts/applegothic/AppleGothic.eot');
-	src: url('webfonts/applegothic/AppleGothic.eot?#iefix') format('embedded-opentype'), url('webfonts/applegothic/AppleGothic.woff') format('woff')
-	url('webfonts/applegothic/AppleGothic.ttf') format('truetype'), url('webfonts/applegothic/AppleGothic.svg#applegothic') format('svg');
+	src: url('webfonts/applegothic/AppleGothic.eot?#iefix') format('embedded-opentype'), 
+	url('webfonts/applegothic/AppleGothic.woff') format('woff')
+	url('webfonts/applegothic/AppleGothic.ttf') format('truetype'), 
+	url('webfonts/applegothic/AppleGothic.svg#applegothic') format('svg');
 }
+
 @font-face { 
-	font-family: 'extrabold'; 
-	src: url('webfonts/AppleSDGothicNeoEB00.eot?#iefix') format('embedded-opentype'), 
-	url('webfonts/AppleSDGothicNeoEB00.otf') format('opentype'), 
-	url('webfonts/AppleSDGothicNeoEB00.woff') format('woff'),
-	url('webfonts/AppleSDGothicNeoEB00.ttf') format('truetype'), 
-	url('webfonts/AppleSDGothicNeoEB00.svg#AppleSDGothicNeoEB00') 
-	format('svg'); font-weight: normal; font-style: normal; 
+	font-family: 'applesd-extrabold'; 
+	src: url('webfonts/applesd-extrabold/AppleSDGothicNeoEB00.eot');
+	src: url('webfonts/applesd-extrabold/AppleSDGothicNeoEB00.eot?#iefix') format('embedded-opentype'),	
+	url('webfonts/applesd-extrabold/AppleSDGothicNeoEB00.woff') format('woff'),
+	url('webfonts/applesd-extrabold/AppleSDGothicNeoEB00.ttf') format('truetype'), 
+	url('webfonts/applesd-extrabold/AppleSDGothicNeoEB00.svg#applesd-extrabold') format('svg'); 
 }
 
 #page {
-		padding: 0;
-		width: 100%;
-	}
-
-
+	padding: 0;
+	width: 100%;
+}
 
 .site-slogan p{
 	font-family: 'extrabold';
@@ -61,13 +62,13 @@ and Blueprint http://www.blueprintcss.org/
 	content: none;
 }
 
-
 .widget {
 	font-size: 14px;
 	font-size: 1.4rem;
 	line-height: 1.7143;
 	margin-bottom: 1.0em;
 }
+
 .widget-title {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 14px;
