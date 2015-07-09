@@ -39,7 +39,7 @@
 		    </div>
 			
 			<div class="site-slogan">
-				<p>커피를 즐기는 당신만의 특별한 경험  AppleGothic</p>
+				<p>커피를 즐기는 당신만의 특별한 경험</p>
 			</div>
 			
 		</div><!-- .site-branding -->
